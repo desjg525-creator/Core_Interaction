@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Garren DesJardins  Projects</title>
+
+  <style>
+    @font-face {
+      font-family: 'Gothicus';
+      src: url('Gothicus.ttf') format('truetype');
+    }
+
+    body {
+      margin: 0;
+      background-color: black;
+      color: #e8d99d;
+      font-family: 'Gothicus', serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    h1 {
+      font-size: 65px;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin: 10px;
+    }
+
+    p {
+      font-family: Georgia, serif;
+      color: #b5b5a5;
+      font-size: 14px;
+      letter-spacing: 3px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 850px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .project {
+      border: 1px solid #78643c;
+      padding: 35px 20px;
+      min-height: 120px;
+      text-align: center;
+      background-color: #111;
+      text-decoration: none;
+      color: #e8d99d;
+    }
+
+    .project:hover {
+      background-color: #302019;
+    }
+
+    .project h3 {
+      font-size: 30px;
+      margin: 10px 0;
+    }
+
+    .project p {
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #8e3329;
+      font-size: 25px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 43px;
+      }
+
+      .projects {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Garren DesJardins</h1>
+    <h2>Core Interaction 1</h2>
+    <p>CLASS PROJECTS  2026</p>
+  </header>
+
+  <div class="projects">
+
+    <a href="walk.html" class="project">
+      <h3>01. Walk</h3>
+      <p>PROJECT ONE</p>
+    </a>
+
+    <a href="recipe.html" class="project">
+      <h3>02. Recipe</h3>
+      <p>PROJECT TWO</p>
+    </a>
+
+    <a href="museum-painting.html" class="project">
+      <h3>03. Museum Painting</h3>
+      <p>PROJECT THREE</p>
+    </a>
+
+    <a href="#" class="project">
+      <h3>04. To Be Continued</h3>
+      <p>COMING SOON</p>
+    </a>
+
+  </div>
+
+  <footer>
+
+  </footer>
+
+</body>
+</html>
