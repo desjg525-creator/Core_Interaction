@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello Welcome</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #171713;
+      color: #e8d99d;
+      font-family: Georgia, serif;
+    }
+
+    .title {
+      text-align: center;
+      padding: 50px 10px 35px;
+      font-family: 'UnifrakturCook', serif;
+      font-size: 70px;
+      line-height: 1.1;
+      color: #e8d99d;
+      text-shadow: 3px 3px #761e18;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 12px;
+      letter-spacing: 5px;
+      color: #b8ad8c;
+      margin-bottom: 40px;
+    }
+
+    .posters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .poster {
+      width: 300px;
+      background-color: #e1d2a1;
+      padding: 8px;
+      box-shadow: 5px 7px 0 #090909;
+      transform: rotate(-2deg);
+    }
+
+    .poster:nth-child(2) {
+      transform: rotate(2deg);
+      margin-top: 40px;
+    }
+
+    .poster:nth-child(3) {
+      transform: rotate(-1deg);
+      margin-top: 15px;
+    }
+
+    .poster img {
+      display: block;
+      width: 100%;
+      height: auto;
+      filter: contrast(1.1) sepia(10%);
+    }
+
+    .caption {
+      text-align: center;
+      font-family: 'UnifrakturCook', serif;
+      font-size: 28px;
+      color: #e8d99d;
+      margin-top: 18px;
+    }
+
+    .divider {
+      width: 80%;
+      height: 2px;
+      background-color: #8b3024;
+      margin: 60px auto 30px;
+    }
+
+    .quote {
+      text-align: center;
+      max-width: 650px;
+      margin: 0 auto;
+      padding: 20px;
+      font-size: 17px;
+      line-height: 1.8;
+      color: #c5b995;
+    }
+
+    .bottom {
+      text-align: center;
+      padding: 35px 10px 50px;
+      font-family: 'UnifrakturCook', serif;
+      font-size: 35px;
+      color: #a23b2c;
+    }
+
+    @media (max-width: 600px) {
+      .title {
+        font-size: 48px;
+      }
+
+      .poster {
+        width: 85%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="title">
+    Hello<br>
+    Welcome
+  </div>
+
+  <div class="subtitle">
+    UNDERGROUND MUSIC 1976 1989
+  </div>
+
+  <div class="posters">
+
+    <div>
+      <div class="poster">
+        <img src="IMG_6463.jpeg" alt="Black Flag punk poster">
+      </div>
+      <div class="caption">Black Flag</div>
+    </div>
+
+    <div>
+      <div class="poster">
+        <img src="Image10-19-26.jpeg" alt="Misfits concert poster">
+      </div>
+      <div class="caption">The Misfits</div>
+    </div>
+
+    <div>
+      <div class="poster">
+        <img src="IMG_6262.jpeg" alt="The Cramps punk poster">
+      </div>
+      <div class="caption">The Cramps</div>
+    </div>
+
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="quote">
+   
+    <br>
+ 
+    <br><br>
+    Punk flyers were made to announce shows,
+    but they became art of their own.
+    <br>
+    Imperfect, handmade, and impossible to separate
+    from the underground culture that created them.
+  </div>
+
+  <div class="bottom">
+    No Rules  No Permission  Just Noise
+  </div>
+
+</body>
+</html>
